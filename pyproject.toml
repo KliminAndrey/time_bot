@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "time-bot"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Klimin <andrey7klimin@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.17.0"
+dateparser = "^1.2.0"
+apscheduler = "^3.11.0"
+environs = "^14.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
